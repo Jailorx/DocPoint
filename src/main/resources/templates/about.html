@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DocPoint - Your Easy Way To Book Doctor Appointments</title>
+    <!-- Google fonts -->
+    <link href="//fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <div th:replace="~{header :: header}">...</div>
+    <!-- //header -->
+	
+	<!-- inner banner -->
+    <section class="inner-banner py-5">
+        <div class="w3l-breadcrumb py-lg-5">
+            <div class="container pt-4 pb-sm-4">
+                <h4 class="inner-text-title pt-5">About Us</h4>
+                <ul class="breadcrumbs-custom-path">
+                    <li><a th:href="@{/home}">Home</a></li>
+                    <li class="active"><i class="fas fa-angle-right"></i>About Us</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- //inner banner -->
+
+    <!-- team block -->
+    <section class="w3l-team-13 py-5" id="team">
+        <div class="container py-md-5 py-4">
+            <div class="title-main text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
+                <p class="text-uppercase">Our Team</p>
+                <h3 class="title-style">Meet Our Team Of Experts</h3>
+            </div>
+            <div class="row text-center left-side">
+                <div class="col-lg-3 col-6">
+                    <div class="image-one">
+                        <a href="#team">
+                            <img src="assets/images/team1.png" class="arrow-png img-responsive" />
+                            <h4>Emma Watson</h4>
+                            <div class="buttons-teams2 mt-2">
+                                <a href="#team"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#team"><i class="fab fa-twitter-square"></i></a>
+                                <a href="#team"><i class="fab fa-google-plus-square"></i></a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="image-one">
+                        <a href="#team">
+                            <img src="assets/images/team2.png" class="arrow-png img-responsive">
+                            <h4>Enrique Lal</h4>
+                            <div class="buttons-teams2 mt-2">
+                                <a href="#team"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#team"><i class="fab fa-twitter-square"></i></a>
+                                <a href="#team"><i class="fab fa-google-plus-square"></i></a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 mt-lg-0 mt-4">
+                    <div class="image-one">
+                        <a href="#team">
+                            <img src="assets/images/team3.png" class="arrow-png img-responsive">
+                            <h4>Smith Ker</h4>
+                            <div class="buttons-teams2 mt-2">
+                                <a href="#team"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#team"><i class="fab fa-twitter-square"></i></a>
+                                <a href="#team"><i class="fab fa-google-plus-square"></i></a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 mt-lg-0 mt-4">
+                    <div class="image-one">
+                        <a href="#team">
+                            <img src="assets/images/team4.png" class="arrow-png img-responsive">
+                            <h4>Forkler Lee</h4>
+                            <div class="buttons-teams2 mt-2">
+                                <a href="#team"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#team"><i class="fab fa-twitter-square"></i></a>
+                                <a href="#team"><i class="fab fa-google-plus-square"></i></a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //team block -->
+
+    <!-- about-2 section -->
+	<section class="w3l-about-2 pb-5 pt-4">
+		<div class="container pb-md-5 pb-4">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-6 about-2-secs-left ps-lg-5">
+					<p class="text-uppercase">Our Motto</p>
+					<h3 class="title-style mb-sm-3 mb-2">Your easy way to book doctor appointments</h3>
+					<p>Doc Point is an innovative online platform that enables
+						users to book doctor appointments quickly and easily. With Doc
+						Point, patients can avoid the hassle of waiting in long queues or
+						trying to get through to busy receptionists on the phone. By
+						simply creating an account and selecting their desired doctor,
+						patients can book appointments in just a few clicks. Doc Point
+						offers a wide network of doctors across various specialties,
+						making it easy for patients to find the right healthcare provider.
+						With its user-friendly interface and convenient features, Doc
+						Point is changing the way patients access healthcare services.</p>
+					<div class="d-flex align-items-center mt-5">
+						<a class="btn btn-style btn-style-3" th:href="@{/contact}">Contact
+							Us</a>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //about-2 section -->
+
+    <!-- footer block -->
+    <div th:replace="~{footer :: footer}">...</div>
+    <!-- //footer block -->
+
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+    <!-- counter-->
+    <script src="assets/js/counter.js"></script>
+    <!-- //counter-->
+
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- //bootstrap -->
+
+</body>
+
+</html>

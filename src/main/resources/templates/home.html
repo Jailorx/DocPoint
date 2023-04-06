@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DocPoint - Your Easy Way To Book Doctor Appointments</title>
+<!-- Google fonts -->
+<link
+	href="//fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+	rel="stylesheet">
+<!-- Template CSS Style link -->
+<link rel="stylesheet" href="/assets/css/style-starter.css">
+</head>
+
+<body>
+	<!-- header -->
+	<div th:replace="~{header :: header}">...</div>
+	<!-- //header -->
+
+	<!-- banner section -->
+	<section id="home" class="w3l-banner py-5">
+		<div class="banner-content">
+			<div class="container py-4">
+				<div class="row align-items-center pt-sm-5 pt-4">
+					<div class="col-md-6">
+						<h3 class="mb-lg-4 mb-3">
+							Healthcare At Its<span class="d-block">Finest</span>
+						</h3>
+						<p class="banner-sub">We Are Here To Hear And Heal Your Health Problems</p>
+						<div class="d-flex align-items-center buttons-banner">
+							<a th:href="@{/contact}" class="btn btn-style mt-lg-5 mt-4">Consult Now</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //banner section -->
+
+	<!-- home 4grids block -->
+	<section class="services-w3l-block py-5" id="features">
+		<div class="container py-md-5 py-4">
+			<div class="title-main text-center mx-auto mb-md-5 mb-4"
+				style="max-width: 500px;">
+				<p class="text-uppercase">Best Features</p>
+				<h3 class="title-style">Improve Your Health Goals With DocPoint</h3>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+					<div class="icon-box icon-box-clr-1">
+						<div class="icon">
+							<i class="fas fa-user-friends"></i>
+						</div>
+						<h4 class="title">
+							<a>Expert Doctors</a>
+						</h4>
+						<p>Doctors with over 5+ year of experience.</p>
+					</div>
+				</div>
+				<div
+					class="col-md-6 col-lg-3 d-flex align-items-stretch mt-md-0 mt-4">
+					<div class="icon-box icon-box-clr-2">
+						<div class="icon">
+							<i class="fas fa-book-reader"></i>
+						</div>
+						<h4 class="title">
+							<a>User Interface</a>
+						</h4>
+						<p>Easy to use UI and great user experience.</p>
+					</div>
+				</div>
+				<div
+					class="col-md-6 col-lg-3 d-flex align-items-stretch mt-lg-0 mt-4">
+					<div class="icon-box icon-box-clr-3">
+						<div class="icon">
+							<i class="fas fa-user-graduate"></i>
+						</div>
+						<h4 class="title">
+							<a>24x7 Support</a>
+						</h4>
+						<p>24x7 support through various toll free numbers.</p>
+					</div>
+				</div>
+				<div
+					class="col-md-6 col-lg-3 d-flex align-items-stretch mt-lg-0 mt-4">
+					<div class="icon-box icon-box-clr-4">
+						<div class="icon">
+							<i class="fas fa-university"></i>
+						</div>
+						<h4 class="title">
+							<a>Best Infrastructure</a>
+						</h4>
+						<p>Clinics with Best Infrastructure.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer block -->
+	<div th:replace="~{footer :: footer}">...</div>
+	<!-- //footer block -->
+
+
+	<!-- common jquery plugin -->
+	<script src="/assets/js/jquery-3.3.1.min.js"></script>
+	<!-- //common jquery plugin -->
+
+	<!-- /counter-->
+	<script src="/assets/js/counter.js"></script>
+	<!-- //counter-->
+
+
+
+
+
+
+	<!-- bootstrap -->
+	<script src="/assets/js/bootstrap.min.js"></script>
+	<!-- //bootstrap -->
+	<!-- //Js scripts -->
+</body>
+
+</html>
